@@ -25,7 +25,7 @@ def connect():
             # Any other input, send the command, encode it to bytes
             conn.send(command.encode())
             # Print the recieved output 1024 bytes max, and decode to unicode string
-            print(conn.recv(1024).decode)
+            print(conn.recv(1024).decode())
             
 # define main
 def main():
